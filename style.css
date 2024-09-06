@@ -79,6 +79,11 @@ body::before {
     display: flex;
     border: none;
     cursor: pointer;
+    opacity: 0.7;
+    transition: 0.25s;
+}
+.search-btn:hover {
+    opacity: 1;
 }
 /* END INPUT CONTAINER */
 
